@@ -8,7 +8,6 @@ import tests.pages.MainPage;
 
 public class SearchTests extends BaseTest{
     MainPage mainPage = new MainPage();
-
     String value = "Ноутбуки";
 
     @DisplayName("Поиск и отображение первого товара в результатах")
@@ -19,6 +18,7 @@ public class SearchTests extends BaseTest{
                 .setCursorToSearchField()
                 .inputValueToSearchField(value)
                 .pressEnter()
+                //Из-за капчи эти шаги не проходят
                 .checkResultsHeader(value)
                 .findFirstResultGood();
     }

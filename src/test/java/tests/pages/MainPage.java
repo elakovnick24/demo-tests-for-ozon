@@ -16,7 +16,9 @@ public class MainPage {
             popUpHeader = $(".ui-k6 .at4b"),
             searchField = $("[placeholder='Искать на Ozon']"),
             textResultsHeader = $("[data-widget='fulltextResultsHeader']"),
-            firstResult = $("x9j jy:first-child");
+            firstResult = $("x9j jy:first-child"),
+            searchContainElement = $("aia7 ai7a");
+
 
     @Step("Открыть главную страницу")
     public MainPage openPage() {
@@ -92,5 +94,11 @@ public class MainPage {
         return this;
     }
 
+   @Step("Строка поиска содержит фильтр '{filter}'")
+    public MainPage searchFieldContainFilter(String filter) {
+        searchContainElement.shouldHave(text(filter));
+
+        return this;
+    }
 
 }

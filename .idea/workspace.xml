@@ -5,40 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ff363e8-17e7-4eaf-8c39-929d298ac727" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifications/allure-notifications-3.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifications/telegram_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ozon/config/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ozon/config/ProjectConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ozon/helpers/AllureAttachments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ozon/helpers/DriverSettings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ozon/helpers/DriverUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AuthorizationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SearchTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/pages/AuthorizationWindowPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/pages/ConfirmationPageForExistUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/pages/ConfirmitationPageForNewUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config/local.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/config/remote.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tpl/request.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tpl/response.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/FilterTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/pages/components/FilterComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ozon/config/Project.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ozon/config/ProjectConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ozon/helpers/AllureAttachments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ozon/helpers/Attach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ozon/helpers/DriverSettings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ozon/helpers/DriverUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AuthorizationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AuthorizationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config/remote.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/tpl/request.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/tpl/response.ftl" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,12 +52,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="autotest-for-ozon" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="autotest-for-ozon" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -114,16 +90,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Project.color&quot;: &quot;56510a&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nelak/IdeaProjects/lexamenrf44-homework13-website-test-main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Project.color": "56510a",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/nelak/IdeaProjects/lexamenrf44-homework13-website-test-main",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\nelak\IdeaProjects\autotest-for-ozon" />
@@ -161,7 +138,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AuthorizationTests.happyPathTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FilterTests.filteringForCategory" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -174,7 +151,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.AuthorizationTests.happyPathTest&quot;" />
+            <option value="&quot;tests.FilterTests.filteringForCategory&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SearchTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.SearchTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -239,9 +239,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.SearchTests.searchAndDisplayedFirstGoodInResult" />
-        <item itemvalue="Gradle.AuthorizationTests.happyPathTest" />
-        <item itemvalue="Gradle.autotest-for-ozon [allureServe]" />
+        <item itemvalue="Gradle.FilterTests.filteringForCategory" />
+        <item itemvalue="Gradle.SearchTests" />
         <item itemvalue="Gradle.AuthorizationTests" />
+        <item itemvalue="Gradle.autotest-for-ozon [allureServe]" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +260,7 @@
       <updated>1660238421267</updated>
       <workItem from="1660238423378" duration="5804000" />
       <workItem from="1660245596608" duration="8420000" />
-      <workItem from="1660243442350" duration="2447000" />
+      <workItem from="1660243442350" duration="7072000" />
     </task>
     <servers />
   </component>

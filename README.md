@@ -119,6 +119,10 @@ test
 > После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне.
 
 <p align="center">
+<img title="Telegram Notifications" src="images/screenshots/img.png">
+</p>
+
+<p align="center">
 <img title="Telegram Notifications" src="images/screenshots/telegram-bot.png">
 </p>
 

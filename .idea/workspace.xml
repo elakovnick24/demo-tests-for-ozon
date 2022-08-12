@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ff363e8-17e7-4eaf-8c39-929d298ac727" name="Changes" comment="&quot;add README.md&quot;">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screenshots/allure-overview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screenshots/allure-suites.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screenshots/allure-testOps.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screenshots/jenkins-launch.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screenshots/jenkins_telegram_config.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="7ff363e8-17e7-4eaf-8c39-929d298ac727" name="Changes" comment="&quot;add README.md&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -247,7 +238,7 @@
       <workItem from="1660245596608" duration="8420000" />
       <workItem from="1660243442350" duration="9964000" />
       <workItem from="1660288555343" duration="628000" />
-      <workItem from="1660289397987" duration="1944000" />
+      <workItem from="1660289397987" duration="2153000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;add README.md&quot;">
       <created>1660289769441</created>
@@ -256,7 +247,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660289769441</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;add README.md&quot;">
+      <created>1660291963989</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660291963989</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;add README.md&quot;">
+      <created>1660292143744</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660292143744</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

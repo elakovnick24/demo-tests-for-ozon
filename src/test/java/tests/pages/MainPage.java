@@ -10,6 +10,8 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class MainPage {
     private final SelenideElement
+
+            logo = $("[alt=Ozon]"),
             authorization = $("[data-widget='profileMenuAnonymous']"),
             enterOrRegistrationButton = $(".ui-k6 .at4b >div:nth-child(2) .ui-j3 "),
             personalAccountButton = $(".ui-k6 .at4b >div:nth-child(3) .ui-j3 "),
@@ -24,6 +26,8 @@ public class MainPage {
     public MainPage openPage() {
         //stickyHeader.shouldBe(visible);
         open("");
+        logo.shouldBe(visible);
+
         return this;
     }
 

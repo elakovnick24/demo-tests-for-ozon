@@ -4,25 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ff363e8-17e7-4eaf-8c39-929d298ac727" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/Allure_Report.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/GitHub.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/Gradle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/Intelij_IDEA.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/JUnit5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/Java.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/Jenkins.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/Selenide.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/Selenoid.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/Telegram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screenshots/local-launch.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/screenshots/telegram-bot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="7ff363e8-17e7-4eaf-8c39-929d298ac727" name="Changes" comment="&quot;add README.md&quot;">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screenshots/allure-overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screenshots/allure-suites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screenshots/allure-testOps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screenshots/jenkins-launch.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/screenshots/jenkins_telegram_config.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,8 +247,16 @@
       <workItem from="1660245596608" duration="8420000" />
       <workItem from="1660243442350" duration="9964000" />
       <workItem from="1660288555343" duration="628000" />
-      <workItem from="1660289397987" duration="314000" />
+      <workItem from="1660289397987" duration="1944000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;add README.md&quot;">
+      <created>1660289769441</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660289769441</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +272,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;add README.md&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;add README.md&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

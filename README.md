@@ -89,17 +89,30 @@ test
 >
 > <code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты (_по умолчанию - <code>1920x1080</code>_).
 
-## Пример запуска
+## Пример запуска тестов из Jenkins с настраиваемыми параметрами 
+> Cборка настроена для прогона тестов на удаленном браузере в Selenoid.
 
 
+<p align="center">
+<img title="Allure Overview" src="images/screenshots/jenkins-launch.gif">
+</p>
 
 
 ### Главная страница Allure-отчета
 
 <p align="center">
-<img title="Allure Overview" src="images/screens/allure_overview.png">
+<img title="Allure Overview" src="images/screenshots/allure-overview.png">
 </p>
 
+### Suites
+<p align="center">
+<img title="Allure Overview" src="images/screenshots/allure-suites.png">
+</p>
+
+### Allure TestOps
+<p align="center">
+<img title="Allure Overview" src="images/screenshots/allure-testOps.png">
+</p>
 
 ## <img width="4%" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
 
@@ -107,4 +120,10 @@ test
 
 <p align="center">
 <img title="Telegram Notifications" src="images/screenshots/telegram-bot.png">
+</p>
+
+> Конфигурация бота в параметрах сборки Jenkins
+> 
+<p align="center">
+<img title="Telegram Notifications" src="images/screenshots/jenkins_telegram_config.png">
 </p>
